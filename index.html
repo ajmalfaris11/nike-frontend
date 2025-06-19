@@ -38,8 +38,78 @@
     </style>
 </head>
 
-<body>
+<body class="bg-white m-0 p-0 text-gray-900 antialiased selection:bg-gray-200 selection:text-black">
+    <Header class="sticky top-0 z-50 w-full bg-white transition-all duration-300">
+        <div
+            class="hidden lg:flex w-full h-[36px] bg-[#f5f5f5] justify-between items-center px-12 border-b border-gray-200">
+            <img src="imgs/Jumpman_logo.svg" alt="jordan"
+                class="h-[18px] hover:opacity-50 cursor-pointer transition-opacity">
+            <ul class="flex gap-4 text-xs font-medium text-black items-center m-0 p-0 list-none">
+                <li><a href="#" class="hover:text-gray-500 no-underline text-black">Find a Store</a></li>
+                <li class="flex items-center gap-2">| <a href="#"
+                        class="hover:text-gray-500 no-underline text-black">Help</a></li>
+                <li class="flex items-center gap-2">| <a href="#"
+                        class="hover:text-gray-500 no-underline text-black">Join Us</a></li>
+                <li class="flex items-center gap-2">| <a href="#"
+                        class="hover:text-gray-500 no-underline text-black">Sign In</a></li>
+            </ul>
+        </div>
 
+        <div
+            class="h-[60px] lg:h-[80px] w-full px-4 lg:px-12 bg-white flex justify-between items-center border-b lg:border-none border-gray-100">
+
+            <a href="#" class="flex items-center">
+                <img src="imgs/nike-logo-trasperent.png" alt="Nike Logo"
+                    class="w-[60px] lg:w-[70px] hover:opacity-50 transition-opacity">
+            </a>
+
+            <nav class="hidden lg:flex h-full items-center">
+                <ul class="flex gap-8 list-none m-0 p-0 font-semibold text-base">
+                    <li><a href="#" class="relative group py-6 text-black no-underline">New & Featured <span
+                                class="absolute bottom-4 left-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span></a>
+                    </li>
+                    <li><a href="#" class="relative group py-6 text-black no-underline">Men <span
+                                class="absolute bottom-4 left-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span></a>
+                    </li>
+                    <li><a href="#" class="relative group py-6 text-black no-underline">Women <span
+                                class="absolute bottom-4 left-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span></a>
+                    </li>
+                    <li><a href="#" class="relative group py-6 text-black no-underline">Kids <span
+                                class="absolute bottom-4 left-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span></a>
+                    </li>
+                    <li><a href="#" class="relative group py-6 text-black no-underline">Sale <span
+                                class="absolute bottom-4 left-0 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-full"></span></a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="flex items-center justify-end gap-2 lg:gap-4">
+                <div
+                    class="hidden lg:flex items-center gap-2 bg-[#f5f5f5] rounded-full px-3 py-2 group w-[180px]  transition-all">
+                    <span class="material-symbols-outlined text-gray-800 text-xl cursor-pointer">
+                        search
+                    </span>
+
+                    <input type="text" placeholder="Search"
+                        class="bg-transparent outline-none text-sm placeholder-gray-500 font-medium w-full" />
+                </div>
+
+
+                <button class="lg:hidden p-2 rounded-full hover:bg-gray-100">
+                    <span class="material-symbols-outlined text-2xl">search</span>
+                </button>
+                <button class="p-2 rounded-full hover:bg-gray-100">
+                    <span class="material-symbols-outlined text-2xl">favorite</span>
+                </button>
+                <button class="p-2 rounded-full hover:bg-gray-100">
+                    <span class="material-symbols-outlined text-2xl">local_mall</span>
+                </button>
+                <button class="lg:hidden p-2 rounded-full hover:bg-gray-100">
+                    <span class="material-symbols-outlined text-2xl">menu</span>
+                </button>
+            </div>
+        </div>
+    </Header>
 </body>
 
 </html>
